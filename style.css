@@ -106,8 +106,8 @@ nav {
 #content2para1 {
   padding: 20px 0;
 }
-.op{
-  color:hsl(208, 11%, 55%);
+.op {
+  color: hsl(208, 11%, 55%);
   font-size: 15px;
 }
 #bodycontent2 img {
@@ -253,7 +253,7 @@ footer {
 @media (max-width: 700px) {
   body {
     width: 100vw;
-    width: 100vh;
+    height: auto;
   }
   #nav {
     width: 100%;
@@ -302,6 +302,10 @@ footer {
     object-fit: cover;
     margin-top: 50px;
   }
+  #bodyup2 {
+    font-size: 18px;
+    width: 350px;
+  }
   #level2 {
     width: 500px;
     padding: 50px;
@@ -325,7 +329,7 @@ footer {
   .op {
     width: 250px;
     text-align: center;
-     color:hsl(208, 11%, 55%);
+    color: hsl(208, 11%, 55%);
   }
   #content2para1 {
     padding: 30px;
